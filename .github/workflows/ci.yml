@@ -8,8 +8,8 @@ jobs:
         uses: actions/checkout@v6
       - run:  python -m pip install pytest
       - name: Check environment
-      - run:  bash scripts/check-env.sh
+        run:  bash scripts/check-env.sh
       - name: Check python version
-      - run:  python --version
+        run:  python --version
       - name: Run Tests
-      - run:  pytest
+        run:  pytest
