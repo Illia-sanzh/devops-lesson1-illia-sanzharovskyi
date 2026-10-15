@@ -1,5 +1,5 @@
 name: Github Python Test Demo
-on: [pull]
+on: [pull_request]
 jobs:
   Run-Python-Tests:
     runs-on: ubuntu-latest
